@@ -7,6 +7,9 @@ import { HOME_DATA, PRODUCTS } from "../../constants/data";
 import Production from "../../components/Production";
 import SliderComponent from "../../components/Slider";
 
+import bigImg1 from "../../assets/images/bigImg.png";
+import bigImg2 from "../../assets/images/Maskgroup5.png";
+
 const Home = () => {
   return (
     <div className="home_wrapper">
@@ -22,7 +25,7 @@ const Home = () => {
           <img
             style={{ objectFit: "contain" }}
             className="w-100 h-100"
-            src="/assets/images/bigImg.png"
+            src={bigImg1}
             alt="big_banner"
           />
         </DivWrapper>
@@ -70,7 +73,7 @@ const Home = () => {
           <img
             style={{ objectFit: "contain" }}
             className="w-100 h-100"
-            src="/assets/images/Maskgroup5.png"
+            src={bigImg2}
             alt="big_banner"
           />
         </DivWrapper>
