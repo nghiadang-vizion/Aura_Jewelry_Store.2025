@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Aura_Jewelry_Store.2025/static/css/main.06917178.css",
+    "main.js": "/Aura_Jewelry_Store.2025/static/js/main.f2913b06.js",
+    "static/media/Maskgroup3.png": "/Aura_Jewelry_Store.2025/static/media/Maskgroup3.2e22b969bd5d398609fe.png",
+    "static/media/Maskgroup1.png": "/Aura_Jewelry_Store.2025/static/media/Maskgroup1.542d87fe9ef6d9f26778.png",
+    "static/media/Maskgroup2.png": "/Aura_Jewelry_Store.2025/static/media/Maskgroup2.d02d16743f239021302b.png",
+    "static/media/Maskgroup7.png": "/Aura_Jewelry_Store.2025/static/media/Maskgroup7.3f26d54cba53bfd7721d.png",
+    "static/media/Maskgroup8.png": "/Aura_Jewelry_Store.2025/static/media/Maskgroup8.dc0f8142e9588ca08a52.png",
+    "static/media/Maskgroup6.png": "/Aura_Jewelry_Store.2025/static/media/Maskgroup6.61922fc23642c6f01088.png",
+    "static/media/Maskgroup4.png": "/Aura_Jewelry_Store.2025/static/media/Maskgroup4.a9c159ff6538a8bff8b1.png",
+    "static/media/flower.png": "/Aura_Jewelry_Store.2025/static/media/flower.0e3f781661ee1a75ad1f.png",
+    "static/media/sabrianna-kuko1hX_kXw-unsplash1.png": "/Aura_Jewelry_Store.2025/static/media/sabrianna-kuko1hX_kXw-unsplash1.8e22b3e6a21d615bfba4.png",
+    "static/media/gold-bracelet-jewelry-white-isolated-background1.png": "/Aura_Jewelry_Store.2025/static/media/gold-bracelet-jewelry-white-isolated-background1.46b21577f22dc83bfe44.png",
+    "static/media/golden-ring-isolated-white-background1.png": "/Aura_Jewelry_Store.2025/static/media/golden-ring-isolated-white-background1.35379ae737ecbe3c227f.png",
+    "static/media/prod4.png": "/Aura_Jewelry_Store.2025/static/media/prod4.6362ca90ad7c4d59cccb.png",
+    "static/media/gold.png": "/Aura_Jewelry_Store.2025/static/media/gold.df68120971c14f706ff5.png",
+    "static/media/aura_logo.png": "/Aura_Jewelry_Store.2025/static/media/aura_logo.2cfdea8d641ff52cee8b.png",
+    "static/media/slick.svg": "/Aura_Jewelry_Store.2025/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Aura_Jewelry_Store.2025/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Aura_Jewelry_Store.2025/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Aura_Jewelry_Store.2025/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Aura_Jewelry_Store.2025/index.html",
+    "main.06917178.css.map": "/Aura_Jewelry_Store.2025/static/css/main.06917178.css.map",
+    "main.f2913b06.js.map": "/Aura_Jewelry_Store.2025/static/js/main.f2913b06.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06917178.css",
+    "static/js/main.f2913b06.js"
+  ]
+}
