@@ -89,11 +89,6 @@ const Home = () => {
         </div>
         <SliderComponent />
       </section>
-      <section className="pt-5">
-        <DivWrapper>
-          <Footer />
-        </DivWrapper>
-      </section>
     </div>
   );
 };

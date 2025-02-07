@@ -1,69 +1,9 @@
-import React, { useCallback, useMemo } from "react";
+import React from "react";
 
 import "./style.scss";
 
 import FLOWER from "../../assets/images/flower2.png";
 import { FOOTER_DATA } from "../../constants/data";
-
-const SiteMap = () => (
-  <div>
-    <h3 className="font-weight-bold mb-3">SITE MAP</h3>
-    <ul className="list-unstyled">
-      {FOOTER_DATA.SITE_MAP.map((item) => (
-        <li key={item} className="mb-2">
-          <a href={item.url} className="lst_item text-decoration-none">
-            {item.title}
-          </a>
-        </li>
-      ))}
-    </ul>
-  </div>
-);
-
-const Services = () => (
-  <div>
-    <h3 className="font-weight-bold mb-3">SERVICES</h3>
-    <ul className="list-unstyled">
-      {FOOTER_DATA.SERVICE.map((item) => (
-        <li key={item} className="mb-2">
-          <a href="#" className="lst_item text-decoration-none">
-            {item.title}
-          </a>
-        </li>
-      ))}
-    </ul>
-  </div>
-);
-
-const SocialLinks = () => (
-  <div>
-    <h3 className="font-weight-bold mb-3">SOCIAL</h3>
-    <ul className="list-unstyled">
-      {FOOTER_DATA.SOCIAL.map((item) => (
-        <li key={item} className="mb-2">
-          <a href={item.url} className="lst_item text-decoration-none">
-            {item.title}
-          </a>
-        </li>
-      ))}
-    </ul>
-  </div>
-);
-
-const footerLabel = [
-  {
-    label: "Site Map",
-    key: "SITE_MAP",
-  },
-  {
-    label: "Service",
-    key: "SERVICE",
-  },
-  {
-    label: "Social",
-    key: "SOCIAL",
-  },
-];
 
 const Logo = () => (
   <div className="d-flex align-items-center">
