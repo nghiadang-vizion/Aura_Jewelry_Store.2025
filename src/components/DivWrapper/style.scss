@@ -5,8 +5,7 @@
     width: 500px;
     transform: translate(-50%, -50%);
     object-fit: contain;
-    // pointerEvents: "none",
-
+    pointer-events: none;
     &._rotate {
       transform: translate(-50%, -50%) rotate(180deg);
     }

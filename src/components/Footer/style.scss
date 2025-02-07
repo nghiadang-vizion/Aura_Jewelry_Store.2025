@@ -1,0 +1,12 @@
+.footer_wrapper {
+  background-color: #333333;
+  .container {
+    .lst_item {
+      color: #aaaaaa;
+      transition: all 0.3s ease-in-out;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

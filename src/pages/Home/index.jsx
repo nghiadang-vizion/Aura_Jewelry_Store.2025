@@ -9,6 +9,7 @@ import SliderComponent from "../../components/Slider";
 
 import bigImg1 from "../../assets/images/bigImg.png";
 import bigImg2 from "../../assets/images/Maskgroup5.png";
+import Footer from "../../components/Footer";
 
 const Home = () => {
   return (
@@ -87,6 +88,11 @@ const Home = () => {
           />
         </div>
         <SliderComponent />
+      </section>
+      <section className="pt-5">
+        <DivWrapper>
+          <Footer />
+        </DivWrapper>
       </section>
     </div>
   );

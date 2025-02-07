@@ -90,3 +90,30 @@ export const PRODUCTS_SLIDE = [
     imgUrl: img6,
   },
 ];
+
+export const FOOTER_DATA = {
+  SITE_MAP: [
+    { title: "Home", url: "#" },
+    { title: "About", url: "#" },
+    { title: "Shop", url: "#" },
+    { title: "Contact", url: "#" },
+  ],
+  SERVICE: [
+    { title: "FAQ", url: "#" },
+    { title: "Shipping", url: "#" },
+    { title: "Tracking", url: "#" },
+    { title: "Returns", url: "#" },
+  ],
+  SOCIAL: [
+    { title: "Facebook", url: "https://www.facebook.com/aura.jewelry.2025/" },
+    {
+      title: "Instagram",
+      url: "https://www.instagram.com/aura_jewelry_store.2025",
+    },
+    { title: "Tiktok", url: "https://www.tiktok.com/@aurajewelry2025" },
+    {
+      title: "Threads",
+      url: "https://www.threads.net/@aura_jewelry_store.2025",
+    },
+  ],
+};
