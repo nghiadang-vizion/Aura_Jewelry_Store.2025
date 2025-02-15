@@ -93,10 +93,9 @@ export const PRODUCTS_SLIDE = [
 
 export const FOOTER_DATA = {
   SITE_MAP: [
-    { title: "Home", url: "#" },
-    { title: "About", url: "#" },
-    { title: "Shop", url: "#" },
-    { title: "Contact", url: "#" },
+    { title: "Home", url: "/" },
+    { title: "About", url: "/about" },
+    { title: "Shop", url: "/shop" },
   ],
   SERVICE: [
     { title: "FAQ", url: "#" },

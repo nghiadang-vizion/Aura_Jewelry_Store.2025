@@ -3,18 +3,18 @@ import React from "react";
 import "./style.scss";
 
 import FLOWER from "../../assets/images/flower2.png";
+import FOOTER_LOGO from "../../assets/images/logo_footer.png";
 import { FOOTER_DATA } from "../../constants/data";
 
 const Logo = () => (
   <div className="d-flex align-items-center">
     <img
-      src="https://storage.googleapis.com/a1aa/image/oa_lLWeePvm3hGKkFeiuHjKM22dJTGbAX_f0cD7vVRw.jpg"
+      src={FOOTER_LOGO}
       alt="Logo of Precious Treasures"
-      width={50}
-      height={50}
+      width={250}
+      height={250}
       className="me-2"
     />
-    <span className="h5 fw-bold">PRECIOUS TREASURES</span>
   </div>
 );
 
@@ -28,15 +28,15 @@ const Footer = () => {
             <div>
               <h3 className="font-weight-bold mb-3">{item}</h3>
               <ul className="list-unstyled">
-                {FOOTER_DATA[item].map((item) => (
-                  <li key={item} className="mb-2">
+                {FOOTER_DATA[item].map((child) => (
+                  <li key={child} className="mb-2">
                     <a
-                      href={item.url}
-                      target="_blank"
+                      href={child.url}
+                      target={`${item === "SITE_MAP" ? "_self" : "_blank"}`}
                       rel="noreferrer"
                       className="lst_item text-decoration-none"
                     >
-                      {item.title}
+                      {child.title}
                     </a>
                   </li>
                 ))}

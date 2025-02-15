@@ -62,9 +62,9 @@ const PageHeader = () => {
           <li>
             <Link to="/shop">Shop</Link>
           </li>
-          <li>
+          {/* <li>
             <Link to="/contact">Contact</Link>
-          </li>
+          </li> */}
           <li>
             <CButton className="p-0">
               <IconFind height="15" width="15" />

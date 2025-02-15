@@ -1,0 +1,17 @@
+.product_card_wrapper {
+  .product_card_img {
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    cursor: pointer;
+    img {
+      height: 100%;
+      width: 100%;
+      transition: all 0.1s ease-in;
+      object-fit: cover;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}

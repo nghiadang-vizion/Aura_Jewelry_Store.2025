@@ -1,7 +1,6 @@
 import React, { useRef } from "react";
 import "./style.scss";
 import goldImg from "../../assets/images/gold.png";
-console.log("🚀 ~ goldImg:", goldImg);
 
 const goldPos = [
   {
